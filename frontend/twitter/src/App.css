@@ -1,0 +1,138 @@
+/* ----------------------------------------------login and register page ----------------------------------------------------------*/
+
+.loginRegister {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  border: none;
+  box-shadow: 2px 2px 4px gray;
+}
+.card > img {
+  height: 55vh;
+  width: 25vw;
+}
+
+.custom-btn {
+  background-color: #010101;;
+  color: white;
+}
+
+form {
+  width: 140%;
+}
+
+.links{
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.outfit-logReg {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* ---------------------------------------------------HomePage--------------------------------------------------------------------- */
+.home {
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.tweets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.defaultPic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.username {
+  font-size: small;
+  white-space: nowrap;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  border-right: 1px solid rgba(206, 202, 202, 0.523);
+  box-shadow: 2px 2px 4px gray;
+}
+
+.tweetImg {
+  height: 50vh;
+  width: 95%;
+}
+
+
+.sidebarLink {
+  width: 100%;
+  border-radius: 30px;
+  color: black;
+  text-decoration: none;
+  padding-left: 8px;
+  padding-top: 4px;
+}
+
+.sidebarLink:hover {
+  background-color: rgba(159, 205, 238, 0.732);
+}
+
+.allLinks {
+  color: black;
+  text-decoration: none;
+}
+
+/* ----------------------------------------------------------Profile-------------------------------------------------------------- */
+.tweetsCol {
+  height: 100vh; /* Make tweetsCol take full viewport height */
+  overflow-y: auto; /* Allow scrolling */
+}
+
+.profileImg {
+  height: 18vh;
+  width: 9vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  left: 1vw
+}
+
+.followBtn {
+  margin-top: 1vh;
+  margin-left: 84%;
+}
+
+.profileInfo {
+  margin-top: 6vh;
+  margin-left: 5%;
+}
+
+.profileName {
+  font-size: large;
+  font-weight: bold;
+}
+.likedBtn {
+  color: #000000;
+}
+.likedBtn.liked {
+  color: red;
+}
